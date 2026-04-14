@@ -15,3 +15,7 @@ npm run dev
 npm run build
 npm run preview
 ```
+
+Production output goes to **`docs/`** for **GitHub Pages** (project site: [sethsaler.github.io/loan-visualizer](https://sethsaler.github.io/loan-visualizer/)). In the repo’s **Settings → Pages**, use **Deploy from a branch**, **main**, **`/docs`**.
+
+After changing app code, run `npm run build` again and commit the updated `docs/` folder.
