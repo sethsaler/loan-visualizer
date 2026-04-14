@@ -1,0 +1,3 @@
+Date,Description,Principal,Interest,Fees,Total
+01/01/2000,DISBURSEMENT,"$100,000.00",$0.00,$0.00,"$100,000.00"
+02/01/2000,PAYMENT,-$500.00,-$500.00,$0.00,"-$1,000.00"
