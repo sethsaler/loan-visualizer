@@ -17,6 +17,9 @@ concurrency:
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: https://sethsaler.github.io/loan-visualizer/
     steps:
       - name: Checkout
         uses: actions/checkout@v4
